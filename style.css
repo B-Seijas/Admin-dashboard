@@ -1,0 +1,60 @@
+@font-face{
+  font-family: "Customfont";
+  src: url(BebasNeue-Regular.ttf);
+}
+
+body{
+    min-height: 100vh;
+}
+
+.container{
+  position: relative;
+  width: 100%;
+}
+
+
+.nav-bar{
+    position: fixed;
+    background-color: rgba(29, 104, 216, 0.897);
+    width: 300px;
+    height: 100vh;
+}
+
+.nav-bar ul{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.nav-bar ul li{
+  position: relative;
+  width: 200%;
+  list-style: none;
+  
+}
+
+.nav-bar ul li:nth-child(1){
+  margin-bottom: 70px;
+  margin-top: 30px;
+  color: aliceblue;
+  font-size: 32px;
+}
+
+.nav-bar ul li a{
+  position: relative;
+  display: block;
+  display: grid;
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 24px;
+  font-family: "Customfont";
+}
+
+.nav-bar ul li:hover a{
+  color: rgba(167, 23, 66, 0.897);
+}
+
+.nav-bar ul li:nth-child(8){
+  margin-top: 70px;
+}
